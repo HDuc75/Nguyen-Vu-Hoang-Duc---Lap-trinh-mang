@@ -51,7 +51,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return String.format("ID:%d\n%s\nDanh mục:%s\nGiá gốc:%.2f\nGiảm:%.1f%%\nGiá bán:%.2f\nSố lượng:%d\nMô tả: %s\n\n",
+        return String.format("ID: %d\n%s\nDanh mục: %s\nGiá gốc: %.2f\nGiảm: %.1f%%\nGiá bán: %.2f\nSố lượng: %d\nMô tả: %s\n\n",
                 id, name, category, price, discountPercent, getPriceAfterDiscount(), quantity, description);
     }
 }
